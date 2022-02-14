@@ -27,3 +27,19 @@ else
     TimeDiff=$(expr $Second2 - $Second1)
 fi 
 echo "The time difference is $TimeDiff seconds"
+max=10
+for(( i=2; i<=$max; ++i ))
+    do
+        echo "$i"
+    done
+    
+max=10
+for i in `seq 2 $max`
+    do
+        echo "$i"
+    done
+
+for i in {2..10}
+    do
+        echo "output: $i"
+    done
